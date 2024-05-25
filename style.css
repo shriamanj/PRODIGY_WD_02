@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.options{
+    width: 300px;
+    height: 90vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: rgb(27, 25, 25);
+}
+.option{
+    height: 100px;
+    width: 120px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 1px 2px 2px grey;
+    background-color: rgb(20, 19, 19);
+}
+.option i {
+    font-size: 30px;
+}
+.option p{
+    font-size: 0.9rem;
+    padding-top: 15px;
+}
+.option:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.content{
+    width: 300px;
+    height: 90vh;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(27, 25, 25);
+}
+
+#navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px 0px 20px;   
+}
+
+.white{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 40px 0px;    
+}
+
+.outer{
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(237, 119, 8);
+}
+.inner{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 25, 25);
+}
+
+.laps{
+    height: 250px;
+    color: white;
+    text-align: center;
+}
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.btn{
+    padding: 12px;
+    width: 80px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px grey;
+}
+
+.btn:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+@media (min-width : 1200px) {
+    .laps{
+        height: 300px;
+    }
+}
